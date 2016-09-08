@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_aty" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:src="@mipmap/calllog_calling_pop_custom_normalhead"/>
+
+        <TextView
+            android:id="@+id/contact_aty_name_tv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="测试--名字"
+            android:layout_margin="5dp"
+            android:textSize="@dimen/contact_text_size"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="测试--电话"
+            android:textSize="@dimen/contact_telNum_size"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact_aty_num_tv"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

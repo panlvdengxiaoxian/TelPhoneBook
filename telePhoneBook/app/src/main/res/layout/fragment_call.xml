@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:id="@+id/call_tv_yel"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:text="黄页>"
+        android:textSize="15sp"
+        android:textColor="#24dc4f"/>
+
+    <EditText
+        android:id="@+id/call_inputNum_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/call_tv_yel"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:digits="0123456789*#"
+        android:inputType="phone"
+        android:maxLength="12"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+    <ImageView
+
+        android:id="@+id/call_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/dial_keyboard_2"
+        android:layout_margin="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/call_btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/call_btn2"
+        android:layout_below="@id/call_btn2"
+        android:src="@mipmap/dial_keyboard_5"
+        android:layout_marginBottom="30dp"/>
+    <ImageView
+        android:id="@+id/call_btn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/call_btn5"
+        android:layout_below="@id/call_btn5"
+        android:src="@mipmap/dial_keyboard_8"
+        android:layout_marginBottom="30dp"/>
+    <ImageView
+        android:id="@+id/call_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/call_btn5"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/call_btn5"
+        android:src="@mipmap/dial_keyboard_4"/>
+    <ImageView
+        android:id="@+id/call_btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/call_btn5"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/call_btn5"
+        android:src="@mipmap/dial_keyboard_6"/>
+    <ImageView
+        android:id="@+id/call_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@id/call_btn4"
+        android:layout_alignTop="@id/call_btn2"
+        android:src="@mipmap/dial_keyboard_1"/>
+    <ImageView
+        android:id="@+id/call_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/call_btn2"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/call_btn5"
+        android:src="@mipmap/dial_keyboard_3"/>
+    <ImageView
+        android:id="@+id/call_btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/call_btn8"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/call_btn5"
+        android:src="@mipmap/dial_keyboard_7"
+        />
+    <ImageView
+        android:id="@+id/call_btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/call_btn8"
+        android:layout_toRightOf="@id/call_btn5"
+        android:src="@mipmap/dial_keyboard_9"/>
+
+
+    <ImageView
+        android:id="@+id/call_btn11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/call_btn9"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/call_btn9"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/dial_keyboard_pound"/>
+
+    <ImageView
+        android:id="@+id/call_btn10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@id/call_btn7"
+        android:layout_below="@id/call_btn7"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/dial_keyboard_asterisk"/>
+
+    <ImageView
+        android:id="@+id/call_btn0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/call_btn8"
+        android:layout_below="@id/call_btn8"
+        android:src="@mipmap/dial_keyboard_0"
+        />
+
+
+    <ImageView
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/call_btn0"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:src="@mipmap/call" />
+
+    <TextView
+        android:id="@+id/call_delete_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/call_btn11"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/call"
+        android:text="删除"
+        android:textColor="#3c1973"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

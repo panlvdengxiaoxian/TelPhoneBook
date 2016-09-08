@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:layout_margin="10dp"
+        android:hint="请输入电话号码或联系人"
+        android:gravity="center"
+        android:background="@drawable/shape_input_msg"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mes_input_aty_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/mes_input_aty_et"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="6"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_input_msg"
+            android:digits="@null"
+            android:cursorVisible="false"
+            android:gravity="center"
+
+            />
+
+        <Button
+            android:id="@+id/mes_send_input_aty_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:background="@drawable/shape_cprnor_msg"
+            android:text="发送"
+            android:textColor="#3ee298"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

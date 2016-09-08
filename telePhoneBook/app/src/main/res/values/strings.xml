@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">telePhoneBook</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">通用</string>
+
+    <string name="pref_title_social_recommendations">无法原谅的错误</string>
+    <string name="pref_description_social_recommendations">一个超人的诞生,一个传奇的到来,来自于神的福音,有李冬冬带您领略自由的世界</string>
+
+    <string name="pref_title_display_name">您的大名or小姐芳名</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">给您的小本子添加两个损友</string>
+    <string-array name="pref_example_list_titles">
+        <item>等着你</item>
+        <item>抽烟等着你</item>
+        <item>去死吧</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">骚年,要来一发吗???</string>
+
+    <string name="pref_title_sync_frequency">一发多长时间</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>1 s</item>
+        <item>30 s</item>
+        <item>1 min</item>
+        <item>1 hours</item>
+        <item>6 hours</item>
+        <item>一年两次,一次半年</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_title2">
+        <item>杀马特之恋(30$)</item>
+        <item>村长夫人的秘密(90$)</item>
+        <item>我的日本一百天(80$)</item>
+        <item>那年我的北京女票和上海女票(9994$)</item>
+        <item>超高能宇宙级虐恋,少年的变直之旅(100000000$)</item>
+        <item>注意,包月8折,包年5折,办理终生会员免费获取以上资源</item>
+        <item>详情请咨询tel:1888888888</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_title3">
+        <item>武则天的后宫们</item>
+        <item>始皇帝无法拒绝的高丽妹纸</item>
+        <item>柳永的哀怨情仇</item>
+        <item>李白的小九</item>
+        <item>世界最大的后海</item>
+        <item>武帝的怪癖</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">妹子的扣扣和微信</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">注意别点,里面高能</string>
+
+    <string name="pref_title_new_message_notifications">愿永于双手为伴,不要妹纸</string>
+
+    <string name="pref_title_ringtone">清晰的恐吓</string>
+    <string name="pref_ringtone_silent">安静的威胁</string>
+
+    <string name="pref_title_vibrate">想不想</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--练习人界面的选择器-->
+    <item android:drawable="@mipmap/icon_tab_contacts_selected" android:state_selected="true"/>
+    <item android:drawable="@mipmap/icon_tab_contacts" android:state_selected="false"/>
+
+</selector>

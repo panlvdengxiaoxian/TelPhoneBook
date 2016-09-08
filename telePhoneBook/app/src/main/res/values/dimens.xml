@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--字体大小-->
+    <!--联系人名的字体大小-->
+    <dimen name="contact_text_size">21sp</dimen>
+    <!--电话号码大小-->
+    <dimen name="contact_telNum_size">16sp</dimen>
+    <!--显示时间字体大小-->
+    <dimen name="time_size">10sp</dimen>
+    <!--短信内容大小-->
+    <dimen name="mes_size">16sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

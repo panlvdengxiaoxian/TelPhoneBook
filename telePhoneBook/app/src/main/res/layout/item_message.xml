@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@android:color/background_light">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/calllog_calling_pop_custom_normalhead"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="6dp"
+        android:background="@android:color/background_light"/>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp">
+        <!--电话号或联系人的名-->
+        <TextView
+            android:id="@+id/item_message_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试--电话"
+            android:textSize="@dimen/contact_telNum_size" />
+        <!--内容-->
+        <TextView
+            android:id="@+id/item_message_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rrr"
+            android:textSize="@dimen/mes_size" />
+
+    </LinearLayout>
+
+    <!--日期-->
+    <TextView
+        android:id="@+id/item_message_time_tv"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="测试日期"
+        android:textSize="@dimen/time_size"
+        android:layout_gravity="center_vertical"/>
+
+
+</LinearLayout>
